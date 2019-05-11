@@ -15,7 +15,7 @@ var Convert = {
                 return d.charCodeAt(0) - 1776; // Convert Persian numbers
             }));
         },
-        ToPersianNumber(pNumber) {
+        ToENNumber(pNumber) {
             var _self = this;
             var mySeperatedDate = (pNumber).split('/')
 
